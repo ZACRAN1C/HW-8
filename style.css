@@ -1,0 +1,39 @@
+#greycol {
+    color: grey;
+}
+
+div + div p{
+    color: red;
+}
+
+.yellow{
+    color: yellow;
+}
+
+.text-box h3:first-child{
+    color: pink;
+}
+
+p:nth-child(7){
+    color: green;
+}
+
+li:nth-child(n){
+    color: lawngreen;
+}
+
+li:nth-child(2n){
+    color: aqua;
+}
+
+li:nth-child(3n){
+    color: deeppink;
+}
+
+li:nth-child(4n){
+    color: blueviolet;
+}
+
+li:nth-child(5n){
+    color: brown;
+}
