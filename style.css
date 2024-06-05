@@ -18,22 +18,42 @@ p:nth-child(7){
     color: green;
 }
 
-li:nth-child(n){
+li:nth-child(1){
     color: lawngreen;
 }
 
-li:nth-child(2n){
+li:nth-child(2){
     color: aqua;
 }
 
-li:nth-child(3n){
+li:nth-child(3){
     color: deeppink;
 }
 
-li:nth-child(4n){
+li:nth-child(4){
     color: blueviolet;
 }
 
-li:nth-child(5n){
+li:nth-child(5){
     color: brown;
+}
+
+li:hover:nth-child(1){
+    text-shadow: 3px 5px 2px aqua;
+}
+
+li:hover:nth-child(2){
+    background-color: red;
+}
+
+li:hover:nth-child(3){
+    font-size: 25px;
+}
+
+li:hover:nth-child(4){
+    list-style: none;
+}
+
+li:hover:nth-child(5){
+    color: blue;
 }
